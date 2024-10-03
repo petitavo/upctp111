@@ -1,0 +1,56 @@
+{
+  "examiners": [
+    {
+      "id": 1,
+      "firstName": "John",
+      "lastName": "Doe",
+      "nationalProviderIdentifier": "1234567890"
+    },
+    {
+      "id": 2,
+      "firstName": "Jane",
+      "lastName": "Smith",
+      "nationalProviderIdentifier": "9876543210"
+    }
+  ],
+  "patients": [
+    {
+      "id": 1,
+      "firstName": "Alice",
+      "lastName": "Johnson",
+      "photoUrl": "https://example.com/photo1.jpg",
+      "birthDate": "1945-05-12"
+    },
+    {
+      "id": 2,
+      "firstName": "Bob",
+      "lastName": "Williams",
+      "photoUrl": "https://example.com/photo2.jpg",
+      "birthDate": "1950-08-21"
+    }
+  ],
+  "mental-state-exams": [
+    {
+      "id": 1,
+      "patientId": 1,
+      "examinerId": 1,
+      "examDate": "2024-01-10",
+      "orientationScore": 5,
+      "registrationScore": 3,
+      "attentionAndCalculationScore": 4,
+      "recallScore": 3,
+      "languageScore": 5
+    },
+    {
+      "id": 2,
+      "patientId": 2,
+      "examinerId": 2,
+      "examDate": "2024-01-15",
+      "orientationScore": 4,
+      "registrationScore": 3,
+      "attentionAndCalculationScore": 5,
+      "recallScore": 2,
+      "languageScore": 4
+    }
+  ]
+}
